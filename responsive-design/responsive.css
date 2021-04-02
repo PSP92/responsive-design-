@@ -1,0 +1,49 @@
+
+/*I couldn't figure this out so I inspected some 
+solutions from a previous lesson and I used this combo
+to get it right*/
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+
+
+/*mobile*/
+@media screen and (max-width:425px){
+    nav i .fas.fa-bars{
+        display: block;
+}
+    nav ul,.orange,.red {
+        display: none;
+    }
+
+    
+    
+    
+    /*tablet*/
+@media screen and (min-width: 768px) {
+      .orange{
+        display: none;
+    }
+
+
+
+    
+/* desktop */
+@media screen and (min-width: 1024px) {
+    ul{
+        flex-direction: row;
+    }
+}

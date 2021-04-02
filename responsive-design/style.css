@@ -1,0 +1,50 @@
+h1{
+    color:#f38927;
+    font-weight: bold;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+}
+.orange{
+    background: black;
+    color:#f38927;
+    font-family: fantasy;
+    display:nonr;
+}
+.red span{
+    color:#ea5b4c;
+    font-style: uppercase;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.red{
+ font-family: fantasy;
+}
+nav ul li{
+    background: #f1f1f1;
+    font-family: fantasy;
+    font-weight: bold;
+    list-style: none;
+}
+.line1 h1{
+background:#7dd320 ;
+color:white;
+font-family: fantasy;
+font-size: 20px;
+}
+.line2 h1{
+background:#ea5b4c ;
+color:white;
+font-family: fantasy;
+font-size: 20px;
+}
+.line3 h1{
+    background:#46AEFF;
+    color:white;
+ font-family: fantasy;
+ font-size: 20px;
+}
+.line1,.line2 ,.line3 p{
+    font-family: fantasy;
+    font-weight: bold;
+}
